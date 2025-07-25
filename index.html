@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Salary Predictor</title>
+</head>
+<body>
+  <h2>Enter Employee Details</h2>
+  <form action="/predict" method="post">
+    <label>Years of Experience:</label><br>
+    <input type="number" name="experience" required><br><br>
+
+    <label>Education Level:</label><br>
+    <select name="education" required>
+      <option value="1">Bachelors</option>
+      <option value="2">Masters</option>
+      <option value="3">PhD</option>
+    </select><br><br>
+
+    <input type="submit" value="Predict Salary">
+  </form>
+</body>
+</html>
